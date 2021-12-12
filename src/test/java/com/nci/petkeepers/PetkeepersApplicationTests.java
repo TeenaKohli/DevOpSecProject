@@ -36,9 +36,4 @@ class PetkeepersApplicationTests {
     }
 
 }
-	@Test
-	void contextLoads() {
-	}
-
-}
 

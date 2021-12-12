@@ -49,7 +49,7 @@ public class HomeController {
 
     @RequestMapping(value = "/sendemail")
     public String sendEmail() {
-        mailHandler.sendMail("pratikkasalkar@gmail.com","Request to Contact ","Hi, Admin would like to contact you regarding your availabilty for pet keeping. \n Regards,\n Team Petkeepers");
+        mailHandler.sendMail("pratikkasalkar@gmail.com","Request to Contact ","Hi, \n Admin would like to contact you regarding your availabilty for pet keeping. \n Regards,\n Team Petkeepers");
         return "Email sent successfully";
     }
 
