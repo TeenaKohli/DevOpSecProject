@@ -11,9 +11,9 @@ pipeline {
         //TODO #2 - update your credentials ID after creating credentials for connecting to Docker Hub
         registryCredential = 'DockerHub'
         dockerImage = ''
-	aws_access_key_id=ASIA3JXYMGHCPM7YTA73
-	aws_secret_access_key=fzSi8pmIT8HD1B7G3TbfswuCNRyETMftXUiceaxY
-	aws_session_token=FwoGZXIvYXdzEF0aDEqEUhnAkkmLxaAt4CLLAbK5UwW7wq74r8ENWWVboWqbhvTNJWhPG+kBbtXAWPij9x3gWyuyHXE7Rr9wOXfbz+wpgPTwudhgru9gdIMIFNbAB1ALo8jEdt+pd4lOl9KXXRppKc93+JSG2o1jcJqvQ+Cb4Ns/mKerb3pPKTxrrH0NzuGaztC3pVPKrAFbVENpDV4m8YbuHPSM0x1icK8OGnhxCc4BzeYK/dQIru7i8edJJNNlchuhSMllRVWyAY7qH/8x0zXsM4Dvrmu/MMMAY5rfJPdnNzqlCn8XKKuo2Y0GMi13LP+uAcSDHBNNhWNSEvE2Bh8pPYGNGnSPr8CwLEvcJ5z6xB36NEQ/oPbM2zQ=
+	aws_access_key_id='ASIA3JXYMGHCPM7YTA73'
+	aws_secret_access_key='fzSi8pmIT8HD1B7G3TbfswuCNRyETMftXUiceaxY'
+	aws_session_token='FwoGZXIvYXdzEF0aDEqEUhnAkkmLxaAt4CLLAbK5UwW7wq74r8ENWWVboWqbhvTNJWhPG+kBbtXAWPij9x3gWyuyHXE7Rr9wOXfbz+wpgPTwudhgru9gdIMIFNbAB1ALo8jEdt+pd4lOl9KXXRppKc93+JSG2o1jcJqvQ+Cb4Ns/mKerb3pPKTxrrH0NzuGaztC3pVPKrAFbVENpDV4m8YbuHPSM0x1icK8OGnhxCc4BzeYK/dQIru7i8edJJNNlchuhSMllRVWyAY7qH/8x0zXsM4Dvrmu/MMMAY5rfJPdnNzqlCn8XKKuo2Y0GMi13LP+uAcSDHBNNhWNSEvE2Bh8pPYGNGnSPr8CwLEvcJ5z6xB36NEQ/oPbM2zQ='
    }
     
   stages {
