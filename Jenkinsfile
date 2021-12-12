@@ -19,7 +19,7 @@ pipeline {
   stages {
     stage('Git Checkout') {
       steps {
-        git branch: 'new', credentialsId: 'aba77e95-f0de-4a98-bb5c-578b80fed4fa', url: 'https://github.com/TeenaKohli/petkeepers'
+        git branch: 'main', credentialsId: 'aba77e95-f0de-4a98-bb5c-578b80fed4fa', url: 'https://github.com/TeenaKohli/DevOpSecProject.git'
       }
     }
 	
